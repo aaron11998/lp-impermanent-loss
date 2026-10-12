@@ -1,0 +1,20 @@
+name = "lp-impermanent-loss-estimator"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# PUBLIC pay-to address (config var, not a secret; no private keys anywhere)
+ORG_EVM_PAYTO = "0x76EfB727cd3271C7DE22f92437Be212766C9631f"
+X402_NETWORK = "eip155:8453"
+X402_ASSET = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+X402_PRICE = "$0.01"
+
+# RPC URLs (set via wrangler secret put)
+# ETHEREUM_RPC_URL = "https://..."
+# ARBITRUM_RPC_URL = "https://..."
+# OPTIMISM_RPC_URL = "https://..."
+# BASE_RPC_URL = "https://..."
+# POLYGON_RPC_URL = "https://..."
+# BSC_RPC_URL = "https://..."
+# AVALANCHE_RPC_URL = "https://..."
